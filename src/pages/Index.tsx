@@ -2,7 +2,7 @@ import FloatingHearts from "@/components/FloatingHearts";
 import HeroSection from "@/components/HeroSection";
 import LoveLetterSection from "@/components/LoveLetterSection";
 import TimeCounter from "@/components/TimeCounter";
-import PhotoGallery from "@/components/PhotoGallery";
+
 import SurpriseButton from "@/components/SurpriseButton";
 import FinalSection from "@/components/FinalSection";
 
@@ -14,7 +14,7 @@ const Index = () => {
         <HeroSection />
         <LoveLetterSection />
         <TimeCounter />
-        <PhotoGallery />
+        
         <SurpriseButton />
         <FinalSection />
       </div>
