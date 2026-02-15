@@ -61,7 +61,7 @@ const SurpriseButton = () => {
           >
             <span className="text-6xl block mb-6">💜</span>
             <h3 className="font-script text-4xl md:text-5xl text-primary mb-6">
-              Eu te amo, Lis
+              Eu te amo, Lis/Grazy
             </h3>
             <p className="font-body text-lg text-foreground/80 leading-relaxed mb-8">
               Você é a pessoa mais incrível que eu já conheci. Cada dia ao seu lado é uma aventura que eu nunca quero que acabe. Você é meu mundo, minha paz, minha felicidade.

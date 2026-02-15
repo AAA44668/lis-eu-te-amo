@@ -15,7 +15,7 @@ const HeroSection = () => {
         }`}
       >
         <h1 className="font-script text-7xl md:text-9xl text-primary mb-6 drop-shadow-[0_0_40px_hsla(330,80%,60%,0.5)]">
-          Lis 💜
+          Lis/Grazy 💜
         </h1>
         <p className="font-body text-xl md:text-3xl text-foreground/80 max-w-xl mx-auto leading-relaxed italic">
           Você é a melhor parte da minha vida.
