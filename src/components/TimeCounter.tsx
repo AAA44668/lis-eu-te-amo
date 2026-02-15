@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // Change this date to your anniversary date
-const START_DATE = new Date("2024-01-01T00:00:00");
+const START_DATE = new Date("2026-01-12T00:00:00");
 
 const TimeCounter = () => {
   const [diff, setDiff] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
