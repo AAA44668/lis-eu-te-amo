@@ -12,28 +12,28 @@ const FloatingHearts = () => {
   const [hearts, setHearts] = useState<Heart[]>([]);
 
   useEffect(() => {
-    const initial: Heart[] = Array.from({ length: 15 }, (_, i) => ({
+    const initial: Heart[] = Array.from({ length: 12 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
-      size: Math.random() * 16 + 10,
-      duration: Math.random() * 8 + 8,
-      delay: Math.random() * 10,
+      size: Math.random() * 14 + 8,
+      duration: Math.random() * 10 + 10,
+      delay: Math.random() * 12,
     }));
     setHearts(initial);
 
-    let counter = 15;
+    let counter = 12;
     const interval = setInterval(() => {
       setHearts((prev) => {
         const newHeart: Heart = {
           id: counter++,
           left: Math.random() * 100,
-          size: Math.random() * 16 + 10,
-          duration: Math.random() * 8 + 8,
+          size: Math.random() * 14 + 8,
+          duration: Math.random() * 10 + 10,
           delay: 0,
         };
-        return [...prev.slice(-20), newHeart];
+        return [...prev.slice(-16), newHeart];
       });
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -52,7 +52,7 @@ const FloatingHearts = () => {
             opacity: 0,
           }}
         >
-          💜
+          ❤️
         </span>
       ))}
     </>
