@@ -1,17 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 
-const LETTER = `Meu amor,
+const LETTER = `No começo, não passava em minha mente o quanto eu gostaria de você, na verdade, nada disso que temos hj. Quando vc chegou e se tornou parte da família, não esperava que nós iríamos nos aproximar tanto.
 
-Desde o dia que você entrou na minha vida, tudo ficou mais bonito. Seu sorriso é o meu lugar favorito, e seus olhos são o céu onde eu me perco todas as noites.
+Então, por culpa de algumas ações e por ser família, nos afastamos. Mas, ficou os resquícios do sentimento mais que se criou em nós. Brigamos, xingamos, voltamos, e isso só foi aumentando esses sentimentos, q antes, era resquícios de algo e se tornou amor. E esse amor ficou forte, e mais forte conforto tudo foi passando.
 
-Cada momento ao seu lado é um presente que eu nunca vou deixar de valorizar. Você me faz querer ser melhor, amar mais forte e sonhar mais alto.
+Se eu te dissesse que me arrependo de ter me afastado antes, estaria mentindo. Pois tudo o que aconteceu foi para que pudesse estar juntos e mais unidos, com confiança.
 
-Obrigado por ser quem você é. Obrigado por escolher estar comigo.
-
-Eu te amo mais do que as palavras conseguem dizer.
-
-Com todo o meu amor,
-Seu namorado 💜`;
+Então, eu amo vc por vc ser exatamente assim, nada mais, nada menos. Eu te amo, minha Princesa.`;
 
 const LoveLetterSection = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -45,13 +40,18 @@ const LoveLetterSection = () => {
 
   return (
     <section ref={ref} className="min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="glass-card rounded-2xl p-8 md:p-12 max-w-2xl w-full">
-        <h2 className="font-display text-3xl md:text-4xl text-primary mb-8 text-center">
-          Carta de Amor
-        </h2>
-        <p className={`font-body text-lg md:text-xl text-foreground/90 whitespace-pre-line leading-relaxed ${displayedText.length < LETTER.length ? "typing-cursor" : ""}`}>
-          {displayedText}
-        </p>
+      <div className="max-w-2xl w-full">
+        <div className="flex items-center gap-4 mb-10">
+          <div className="red-line !m-0" />
+          <h2 className="font-display text-4xl md:text-5xl text-primary tracking-widest uppercase">
+            Para Você
+          </h2>
+        </div>
+        <div className="glass-card rounded-none border-l-2 border-l-primary p-8 md:p-12">
+          <p className={`font-body text-base md:text-lg text-foreground/85 whitespace-pre-line leading-loose ${displayedText.length < LETTER.length ? "typing-cursor" : ""}`}>
+            {displayedText}
+          </p>
+        </div>
       </div>
     </section>
   );

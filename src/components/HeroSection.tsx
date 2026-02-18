@@ -8,26 +8,34 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center text-center px-4">
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4">
       <div
-        className={`transition-all duration-[1.5s] ease-out ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`
-        }>
-
-        <h1 className="font-script text-7xl md:text-9xl text-primary mb-6 drop-shadow-[0_0_40px_hsla(330,80%,60%,0.5)]">
-          Grazy/Lis 
+        className={`transition-all duration-[2s] ease-out ${
+          visible ? "opacity-100 scale-100" : "opacity-0 scale-90"
+        }`}
+      >
+        <div className="red-line mb-8" />
+        <h1 className="font-display text-8xl md:text-[10rem] tracking-[0.15em] text-primary uppercase leading-none">
+          Leticia
         </h1>
-        <p className="font-body text-xl md:text-3xl text-foreground/80 max-w-xl mx-auto leading-relaxed italic">
-          As mulheres da minha vida    
+        <p className="font-script text-4xl md:text-6xl text-foreground/70 my-4">
+          &
         </p>
-        <div className="mt-12 animate-bounce">
-          <span className="text-muted-foreground text-sm tracking-widest uppercase font-body">
+        <h1 className="font-display text-8xl md:text-[10rem] tracking-[0.15em] text-primary uppercase leading-none">
+          Izzy
+        </h1>
+        <div className="red-line mt-8 mb-10" />
+        <p className="font-body text-lg md:text-2xl text-muted-foreground tracking-widest uppercase">
+          Minha Safada
+        </p>
+        <div className="mt-16 animate-bounce">
+          <span className="text-muted-foreground text-xs tracking-[0.3em] uppercase font-body">
             ↓ role para baixo ↓
           </span>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default HeroSection;
