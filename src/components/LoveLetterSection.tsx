@@ -43,8 +43,8 @@ const LoveLetterSection = () => {
       <div className="max-w-2xl w-full">
         <div className="flex items-center gap-4 mb-10">
           <div className="red-line !m-0" />
-          <h2 className="font-display text-4xl md:text-5xl text-primary tracking-widest uppercase">
-            Para Você
+          <h2 className="font-display text-4xl md:text-5xl text-primary tracking-widest uppercase">PARA VOCÊ MINHA SAFADA
+
           </h2>
         </div>
         <div className="glass-card rounded-none border-l-2 border-l-primary p-8 md:p-12">
@@ -53,8 +53,8 @@ const LoveLetterSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default LoveLetterSection;
