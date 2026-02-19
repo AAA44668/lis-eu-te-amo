@@ -1,7 +1,7 @@
 import FloatingHearts from "@/components/FloatingHearts";
 import HeroSection from "@/components/HeroSection";
 import LoveLetterSection from "@/components/LoveLetterSection";
-import TimeCounter from "@/components/TimeCounter";
+
 
 import SurpriseButton from "@/components/SurpriseButton";
 import FinalSection from "@/components/FinalSection";
@@ -13,7 +13,7 @@ const Index = () => {
       <div className="relative z-10">
         <HeroSection />
         <LoveLetterSection />
-        <TimeCounter />
+        
         
         <SurpriseButton />
         <FinalSection />
