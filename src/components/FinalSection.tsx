@@ -16,7 +16,7 @@ const FinalSection = () => {
       <div className={`text-center transition-all duration-[2s] ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
         <div className="red-line mb-8" />
         <p className="font-display text-5xl md:text-8xl text-primary tracking-widest uppercase leading-relaxed">
-          Pra sempre
+          te amo
         </p>
         <p className="font-script text-3xl md:text-5xl text-foreground/50 mt-6">
           Big Boss
