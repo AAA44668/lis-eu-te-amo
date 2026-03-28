@@ -19,7 +19,7 @@ const FinalSection = () => {
           Pra sempre
         </p>
         <p className="font-script text-3xl md:text-5xl text-foreground/50 mt-6">
-          Leticia & Izzy
+          Leticia & Big Boss
         </p>
         <div className="red-line mt-8" />
         <div className="mt-12 text-4xl">❤️</div>
