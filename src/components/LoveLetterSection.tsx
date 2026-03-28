@@ -6,9 +6,7 @@ Você mudou a forma como eu vejo as coisas, trouxe leveza pros meus dias e fez c
 
 Eu gosto de nós. Gosto da nossa conexão, das nossas conversas, das nossas risadas e até dos nossos silêncios. Gosto da sensação de ter você comigo, de saber que posso contar com você e de sentir que, aos poucos, a gente tá construindo algo verdadeiro.
 
-E mesmo sendo só "quase 1 mês", eu já tenho um carinho enorme por você, um sentimento que cresce a cada dia, sem pressa, mas cheio de intensidade. Eu só quero que você saiba o quanto você é importante pra mim e o quanto eu desejo que isso que a gente tem continue, cresça e se torne cada vez mais forte.
-
-Se depender de mim, isso é só o começo de algo muito lindo. 💖`;
+E mesmo sendo só "quase 1 mês", eu já tenho um carinho enorme por você, um sentimento que cresce a cada dia, sem pressa, mas cheio de intensidade. Eu só quero que você saiba o quanto você é importante pra mim e o quanto eu desejo que isso que a gente tem continue, cresça e se torne cada vez mais forte.`;
 
 const LoveLetterSection = () => {
   const [displayedText, setDisplayedText] = useState("");
