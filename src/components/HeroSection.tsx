@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import couplePhoto from "@/assets/couple.png";
 const HeroSection = () => {
   const [visible, setVisible] = useState(false);
 
