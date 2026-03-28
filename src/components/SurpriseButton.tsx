@@ -62,9 +62,9 @@ const SurpriseButton = () => {
             <h3 className="font-display text-5xl md:text-6xl text-primary mb-4 tracking-widest uppercase">
               Eu te amo
             </h3>
-            <p className="font-script text-2xl text-foreground/60 mb-6">Leticia / Izzy</p>
+            <p className="font-script text-2xl text-foreground/60 mb-6">Leticia & Big Boss</p>
             <p className="font-body text-base text-foreground/75 leading-relaxed mb-8">
-              Eu amo vc por vc ser exatamente assim, nada mais, nada menos. Minha Princesa.
+              Se depender de mim, isso é só o começo de algo muito lindo. 💖
             </p>
             <button
               onClick={() => setShowPopup(false)}

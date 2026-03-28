@@ -22,7 +22,7 @@ const HeroSection = () => {
           &
         </p>
         <h1 className="font-display text-8xl md:text-[10rem] tracking-[0.15em] text-primary uppercase leading-none">
-          Izzy
+          Big Boss
         </h1>
         <div className="red-line mt-8 mb-10" />
         

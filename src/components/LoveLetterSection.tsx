@@ -1,12 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 
-const LETTER = `No começo, não passava em minha mente o quanto eu gostaria de você, na verdade, nada disso que temos hj. Quando vc chegou e se tornou parte da família, não esperava que nós iríamos nos aproximar tanto.
+const LETTER = `Quase 1 mês ao seu lado… e, sendo sincera, parece que você chegou na minha vida muito antes disso. É estranho explicar, mas ao mesmo tempo é a coisa mais bonita que eu já senti. Em tão pouco tempo, você conseguiu se tornar alguém essencial pra mim, alguém que eu penso todos os dias, que eu sinto falta mesmo quando acabei de ver, e que faz meu coração ficar em paz só por existir.
 
-Então, por culpa de algumas ações e por ser família, nos afastamos. Mas, ficou os resquícios do sentimento mais que se criou em nós. Brigamos, xingamos, voltamos, e isso só foi aumentando esses sentimentos, q antes, era resquícios de algo e se tornou amor. E esse amor ficou forte, e mais forte conforto tudo foi passando.
+Você mudou a forma como eu vejo as coisas, trouxe leveza pros meus dias e fez com que momentos simples se tornassem especiais. O seu jeito, o seu cuidado, a forma como você fala comigo… tudo em você me encanta de um jeito que eu não sei nem colocar em palavras direito.
 
-Se eu te dissesse que me arrependo de ter me afastado antes, estaria mentindo. Pois tudo o que aconteceu foi para que pudesse estar juntos e mais unidos, com confiança.
+Eu gosto de nós. Gosto da nossa conexão, das nossas conversas, das nossas risadas e até dos nossos silêncios. Gosto da sensação de ter você comigo, de saber que posso contar com você e de sentir que, aos poucos, a gente tá construindo algo verdadeiro.
 
-Então, eu amo vc por vc ser exatamente assim, nada mais, nada menos. Eu te amo, minha Princesa.`;
+E mesmo sendo só "quase 1 mês", eu já tenho um carinho enorme por você, um sentimento que cresce a cada dia, sem pressa, mas cheio de intensidade. Eu só quero que você saiba o quanto você é importante pra mim e o quanto eu desejo que isso que a gente tem continue, cresça e se torne cada vez mais forte.
+
+Se depender de mim, isso é só o começo de algo muito lindo. 💖`;
 
 const LoveLetterSection = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -43,7 +45,7 @@ const LoveLetterSection = () => {
       <div className="max-w-2xl w-full">
         <div className="flex items-center gap-4 mb-10">
           <div className="red-line !m-0" />
-          <h2 className="font-display text-4xl md:text-5xl text-primary tracking-widest uppercase">PARA VOCÊ MINHA SAFADINHA
+          <h2 className="font-display text-4xl md:text-5xl text-primary tracking-widest uppercase">PARA VOCÊ, MEU BIG BOSS
 
           </h2>
         </div>
